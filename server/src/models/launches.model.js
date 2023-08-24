@@ -10,4 +10,8 @@ const launch = {
   sucess: true,
 }
 
-launches.set()
+launches.set(launch.flightNuumber, launch)
+
+module.exports = {
+  launches,
+}
